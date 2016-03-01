@@ -1,0 +1,93 @@
+@import 'vendors/_bootstrap.scss';
+
+
+$primary-color:#3b5a76;
+$background-color:#ededed;
+$text-color:#363636;
+$font: 16px;
+
+body{
+	padding-bottom:50px;
+    font-family :'Open Sans',Arial,Tahoma;
+    color:$text-color;
+    background:$background-color;
+    font-size:$font;
+}
+h2{
+    font-weight:700;
+    text-transform:uppercase;
+    line-height:1.4em;
+    font-size:1.5em;
+}
+
+.primary,strong,h2{
+    color:$primary-color;
+}
+
+.container-main{
+    background:#fff;
+    margin-top:80px;
+    padding:10px 20px 30px 30px;
+    }
+.profile-img{
+    width:10%;
+    display:block;
+    margin:auto;
+    margin-top:-80px;
+}
+.line{
+    width:100%;
+}
+header
+{
+    min-height:100px;
+    overflow:auto;
+}
+header h1{
+    margin:0;
+    padding:20px 0 0 0;
+    font-size:2.2em;
+    font-weight:500;
+    text-transform:uppercase;
+    letter-spacing:-1px;
+    text-align:center;
+    line-height:1.4em;
+}
+
+.contact-list{
+    padding:0;
+    margin:0;
+}
+
+.contact-list li{
+    list-style:none;
+    font-weight:bold;
+    line-height:3.2em;
+}
+.contact-list span{
+    display:block;
+    margin:0;
+    padding:0;
+    line-height:0.1em;
+    margin-left:37px;
+    font-size:15px;
+    color:#ccc;
+}
+
+.row{
+    margin-bottom:20px;
+}
+
+.media{
+    background:$background-color;
+    padding:10px;
+
+}
+
+.footer{
+    background:$primary-color;
+    color:#fff;
+    text-align:center;
+    padding-top:20px;
+    padding-bottom:20px;
+}
